@@ -1,6 +1,103 @@
-.head1{
-    background-image: url(../B9A1-New-Year-New-Mission/resources/Banner\ Image.png);
-    height: 50vh;
+header{
+    background-image: url(../image/Banner\ Image.png);
     background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.6);
+    /* border-radius: 5%; */
     margin-left: 30px;
+    background-size: cover;
+    border-radius: 1.5%;
+    /* overflow: hidden; */
+    /* filter: brightness(50%) :not(.headertitle to .title1); */
+}
+.headertitle{
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 0;
+    margin-top: 60px;
+    color: white;
+    text-align: center;
+    padding: 220px 150px 0%;
+    filter: brightness(100%);
+}
+.title1{
+    font-size: 70px;
+    font-weight: 800;
+    margin-top: 0;
+    color: white;
+    text-align: center;
+    padding: 0px 150px 200px;
+    filter: brightness(100%);
+}
+
+/* body design */
+.sec1{
+    align-items: center;
+    padding: 0px 150px;
+    text-align: center;
+    padding-top: 0px;
+    margin-top: 0;
+}
+.percent{
+    color: rgb(224, 4, 4);
+    font-size: 50px;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+    padding-top: 30px;
+}
+.holiday{
+    color: darkred;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.cat{
+    padding-top: 0;
+    margin-top: 10px;
+}
+/* section 2 design */
+.sec2{
+    background-image: url(../image/Vectorrr.png);
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin-left: 30px;
+    margin-top: 80px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    margin-right: 30px;
+    border-radius: 1.5%;
+}
+.head2{
+    text-align: left;
+    color: white;
+    padding-left: 130px;
+    padding-top: 130px;
+    font-size: 50px;
+    padding-right: 100px;
+    padding-bottom: 0%;
+}
+.para2{
+    text-align: left;
+    color: darkgrey;
+    padding-left: 130px;
+    padding-right: 100px;
+}
+.btn1{
+    text-align: left;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    /* padding: 10px; */
+    padding-bottom: 250px;
+    border: 0;
+    border-radius: 5px;
+    padding: 15px;
+    margin-left: 130px;
+}
+.img1{
+    width: 650px;
+    height: 500px;
+    padding-right: 150px;
+    padding-top: 60px;
 }
