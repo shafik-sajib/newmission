@@ -179,6 +179,8 @@ header{
     padding-right: 200px;
     padding-top: 0%;
     margin-top: 0%;
+    position: relative;
+    top: -150px;
 }
 .head6{
     padding-top: 0%;
@@ -193,12 +195,16 @@ header{
 }
 .para6{
     color: darkgray;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 .nav3{
     display: flex;
     padding-left: 130px;
     padding-right: 130px;
     padding-top: 10px;
+    position: relative;
+    top: -150px;
 }
 .img5{
     width: 400px;
@@ -226,4 +232,59 @@ header{
     position: relative;
     top: 300px;
     right: 700px;
+}
+/* section 6 design */
+.sec6{
+    padding-left: 250px;
+    padding-right: 150px;
+}
+.div9{
+    padding-right: 300px;
+}
+.head7{
+    color: red;
+}
+.title6{
+    font-size: 40px;
+    padding: 0%;
+    margin: 0%;
+}
+.para7{
+    color: darkgray;
+}
+/* footer design */
+.nav5{
+    padding-top: 50px;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(233, 215, 208);
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.head8{
+    font-size: 40px;
+    font-weight: 700;
+    padding: 0%;
+    margin: 0%;
+}
+.para8{
+    color: rgb(94, 93, 93);
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.div14{
+    padding-bottom: 50px;
+}
+.btn9{
+    background-color: red;
+    margin: 0;
+    padding: 10px;
+    border: 0;
+    border-radius: 20%;
+}
+.input1{
+    padding: 10px;
+    border: 0;
+    border-radius: 10%;
 }
